@@ -8,7 +8,7 @@ planner_frequency: 0.0
 
 DynamicGapPlannerROS:
   # PlanningMode
-  holonomic: true
+  holonomic: false
   projection_operator: true
   egocircle_prop_cheat: false
   gap_feasibility_check: true
