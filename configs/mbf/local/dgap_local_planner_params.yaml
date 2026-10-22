@@ -8,7 +8,7 @@ controllers:
 
 DynamicGapPlannerROS:
   # PlanningMode
-  holonomic: false
+  holonomic: true # rto drives with the HoloSecondOrder flatland plugin
   projection_operator: true
   egocircle_prop_cheat: false
   gap_feasibility_check: true
